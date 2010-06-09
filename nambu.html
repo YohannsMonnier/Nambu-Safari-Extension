@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nambu Extension</title>
+</head>
+<body>
+	
+<script type="text/javascript">	
+
+function performCommand(event)
+{
+    if (event.command === "nambuprotocol") {
+
+        var currentURL = event.target.browserWindow.activeTab.url;
+        //currentURL = escape(currentURL);
+
+        event.target.browserWindow.activeTab.url='nambu:'+currentURL          
+        
+    }
+}
+ 
+ 
+// if event handlers are in the global HTML page,
+// register with application:
+safari.application.addEventListener("command", performCommand, false);
+
+</script>
+</body>
+</html>
