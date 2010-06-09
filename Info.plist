@@ -32,7 +32,7 @@
 				<key>Palette Label</key>
 				<string>Nambu</string>
 				<key>Tool Tip</key>
-				<string>Quick Link</string>
+				<string>Quick share with Nambu</string>
 			</dict>
 		</array>
 	</dict>
@@ -55,5 +55,7 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Website</key>
+	<string>http://github.com/YohannsMonnier/Nambu-Safari-Extension</string>
 </dict>
 </plist>
